@@ -102,8 +102,8 @@ profundidad = int(input('Digite a profundidad del cubo: '))
 cubo1 = Cubo(ancho,alto,profundidad)
 print(f'El volumen del cubo es: {cubo1.calcular_volumen()}') # Al llamar al objeto cubo1 al método calcular_volumen
 
-#Ejercisio precentado por Nicolas Abete
 
+#Ejercisio precentado por Nicolas Abete
 
 #Como hacer la igualdad de dos conjuntos
 print(conjunto1 | conjunto2)
@@ -118,7 +118,9 @@ print(conjunto3.isssubperset(conjunto1)) # Preguntamos si los elementos del conj
 print(conjunto3.issuperset(conjunto2)) # si es verdadero quiere decir que el conjunto3 es un superconjunto
 print(conjunto2.issuperset(conjunto3))
 
-#Clase presentada por Gaston Riveros
+
+# Clase presentada por Gaston Riveros
+
 persona1= Persona("Gaston","Riveros",32) #NECESITAMOS ENVIAR ARGUMENTOS
 # print(persona1.nombre) # Tarea: Hacer el print igual que con el objeto 2
 #Print( persona1.apellido)
@@ -132,7 +134,6 @@ print(f"Elobjeto2 de la clase persona: {persona2.nomre} {persona2.apellido} {per
 persona1.mostrar_detalle()
 persona2.mostrar_detalle()
 
-      
       
  #CLASE PRESENTADA POR BELÉN RABEL
       
