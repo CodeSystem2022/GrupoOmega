@@ -78,3 +78,5 @@ print(f'La suma de los números es: {aritmetica1.sumar()}')
 print(f'La resta de los números es: {aritmetica1.resta()}')
 print(f'La multiplicación de los números es: {aritmetica1.multiplicar()}')
 print(f'La division de los números es: {aritmetica1.dividir():.2f}')
+
+
