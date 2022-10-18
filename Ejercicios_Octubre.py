@@ -102,5 +102,19 @@ profundidad = int(input('Digite a profundidad del cubo: '))
 cubo1 = Cubo(ancho,alto,profundidad)
 print(f'El volumen del cubo es: {cubo1.calcular_volumen()}') # Al llamar al objeto cubo1 al método calcular_volumen
 
+#Ejercisio precentado por Nicolas Abete
 
+
+#Como hacer la igualdad de dos conjuntos
+print(conjunto1 | conjunto2)
+
+conjunto3 = conjunto1 | conjunto2
+print(conjunto2.issubset(conjunto3))# acá preguntamos si un conjunto es un subconjunto dentro de otro
+print(conjunto1.issubset(conjunto3))
+print(conjunto3.issubset(conjunto1))
+print(conjunto3.issubset(conjunto2))
+
+print(conjunto3.isssubperset(conjunto1)) # Preguntamos si los elementos del conjunto1 estan dentro del 3
+print(conjunto3.issuperset(conjunto2)) # si es verdadero quiere decir que el conjunto3 es un superconjunto
+print(conjunto2.issuperset(conjunto3))
 
