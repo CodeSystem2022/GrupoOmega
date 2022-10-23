@@ -138,7 +138,7 @@ persona2.mostrar_detalle()
  #CLASE PRESENTADA POR BELÉN RABEL
       
  class Persona:  # Creamos una clase
-    def __int__(self, nombre, apellido, edad, *args, **kwargs):  # Se lo llama método Init Dunder
+    def __init__(self, nombre, apellido, edad, *args, **kwargs):  # Se lo llama método Init Dunder
         self.nombre = nombre
         self.apellido = apellido
         self.edad = edad
