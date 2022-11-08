@@ -1,1 +1,25 @@
+# CLASE PRESENTADA POR DARIO TAMINI
+
+from Cuadrado import Cuadrado
+from Rectangulo import Rectangulo
+
+print("Creacion de objetos clase cuadrado".center(50, "_"))
+cuadrado1 = Cuadrado(8, "Azul")
+cuadrado1.alto = 7
+cuadrado1.ancho = 7
+# print(cuadrado1.ancho)
+# print(cuadrado1.alto)
+print(f"Calculo del ancho del cuadrado: {cuadrado1.calcular_area()}")
+
+# metodo MRO = Method Resolution Order
+# muestra el orden en q se ejecutab los metodos
+# print(Cuadrado.mro())
+
+print(cuadrado1)
+print("Creacion de objetos clase rectangulo".center(50, "_"))
+rectangulo1 = Rectangulo(3, 9, "verde")
+rectangulo1.ancho = 8
+print(f"Calculo del area del rectangulo: {rectangulo1.calcular_area()}")
+print(rectangulo1)
+
 
