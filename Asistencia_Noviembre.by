@@ -132,3 +132,38 @@ class FiguraGeometrica(ABC):
 
     def _validar_valores(self, valor): # Método encapsulado
         return True if 0 < valor < 10 else False
+
+# CLASE PRESENTADA POR BELÉN RABEL
+
+class MiClase:
+    # Variable de clase, este atributo dará a cada objeto el mismo valor de clase'
+    variable_clase = 'Esta es una variable'
+
+    def __init__(self, variable_instancia):  # La variable de instancia, da diferentes valores
+        self.variable_instancia = variable_instancia
+
+    @staticmethod
+    def metodo_estatico():  # Método estático, se asocia a la clase
+        print(MiClase.variable_clase)
+
+    @classmethod
+    def metodo_clase(cls):
+        print(cls.MiClase.variable_clase)
+
+
+print(MiClase.variable_clase)
+miClase1 = MiClase('Esta es una variable de instancia')
+print(miClase1.variable_instancia)
+print(miClase1.variable_clase)
+miClase2 = MiClase('Esta es otra prueba de variable de instancia')
+print(miClase2.variable_instancia)
+print(miClase2.variable_clase)
+
+MiClase.variable_clase2 = 'valor de la variable de clase 2'
+print(MiClase.variable_clase2)
+print(miClase1.variable_clase2)
+print(miClase2.variable_clase2)
+
+MiClase.metodo_estatico()
+
+MiClase.metodo_clase()
