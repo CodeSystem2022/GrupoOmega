@@ -167,3 +167,21 @@ print(miClase2.variable_clase2)
 MiClase.metodo_estatico()
 
 MiClase.metodo_clase()
+
+#CLASE PRESENTADA POR NICOLAS ABETE
+
+class Persona:
+    def __init__(self,nombre, edad):
+        self.nombre= nombre
+        self.edad= edad 
+def __add__ (self, other): # Other significa otro
+ return f'{self.nombre} {other.nombre}'
+
+def __sub__(self, otro): # Sub significa = substraction (resta)
+ return self.edad- otro.edad
+Personal Persona('Ariel', 40)
+persona2= Persona('Betancud', 5)
+# personal. __add_(persona2) sintaxis interna y automatica
+
+print (personal + persona2)
+print (personal - persona2)
