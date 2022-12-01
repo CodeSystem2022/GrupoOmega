@@ -186,7 +186,9 @@ persona2= Persona('Betancud', 5)
 print (personal + persona2)
 print (personal - persona2)
         
-        #Clase Presentada por Gaston Riveros
+
+#Clase Presentada por Gaston Riveros
+        
         class Vehiculo:
 ## Crear un objeto de cada Clase
 
